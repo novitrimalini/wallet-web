@@ -1,0 +1,120 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+
+.App-title {
+    font-size: 1.5em;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+.jumbotron {
+    text-align: center;
+    width: 30rem;
+    border-radius: 0.5rem;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: relative;
+    margin: 4rem auto;
+    background-color: #fff;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto 30px;
+    border-radius: 100%;
+    border: 2px solid #aaa;
+    background-size: cover;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+body {
+    background-color: #fef2e8;
+}
+
+p {
+    font-family: SansSerif;
+}
+
+.dashboard-user__balance {
+    border-top: black solid 0.5px;
+}
+
+.wallet-balance {
+    font-weight: bold;
+}
+
+.transaction-display-mobile > .card{
+    padding: 5px 10px;
+}
+
+@media screen and (min-width: 0px) {
+    .transaction-display-desktop {
+        display: none;
+    }
+
+    .transaction-display-mobile {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .transaction-display-desktop {
+        display: block;
+    }
+
+    .transaction-display-mobile {
+        display: none;
+    }
+}
+.transaction-item-mobile__date{
+    display: inline-flex;
+    font-size: 14px;
+}
+.transaction-item-mobile__from-wallet{
+
+}
+.transaction-item-mobile__to-wallet{
+
+}
+.transaction-item-mobile__description{
+
+}
+.transaction-item-mobile__amount {
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-flex;
+}
+
+.query-form{
+    margin-top: 20px;
+}
+
+
+
+

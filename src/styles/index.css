@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+  /*font-family: sans-serif;*/
+}
+.footer{
+  background-color: #f58220;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.footer p {
+  padding-top: 10px;
+  margin-top: 10px;
+  font-family: 'Roboto';
+}
+.header{
+  background-color: #f58220;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+img{
+  height: 100px;
+  padding: 10px;
+}
+.card-header{
+  background-color: #f58220;
+  height: 50px;
+  padding-top: 10px;
+}
+.card{
+  background-color: #fef2e8;
+  border-color: #f58220 ;
+  font-style: Bold;
+  font-family: 'Roboto';
+}
+h1{
+  color: black;
+}
+.balance{
+  font-size: 24px;
+}
+.wallet-balance{
+  font-size: 24px;
+  font-style: inherit;
+}
+.filter-wrap{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.form-padding{
+  margin-right: 5px;
+  margin-top: 5px;
+}
+.space-left-title{
+  margin-left: 20px;
+}
+.submit{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  background-color: #f58220;
+}
+.submit-payee{
+  margin-bottom: 10px;
+  background-color: #f58220;
+}
+.submit-add-payee{
+  padding-bottom: -40px;
+  background-color: #f3a564;
+  margin-bottom: 10px;
+}
+.submit-send{
+  margin-bottom: 10px;
+  background-color: #f58220;
+  margin-right: 85px;
+}
+.section-form{
+  padding-right: 350px;
+}
+.avatar{
+  background-color:#f58220 ;
+}
+
+.transfer{
+  padding-left: 200px;
+}
+.add-payee{
+  margin-left: 50px;
+}
